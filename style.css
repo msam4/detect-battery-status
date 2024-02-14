@@ -5,6 +5,10 @@
   font-family: "Roboto Mono", monospace;
 }
 
+body {
+  background-color: #000;
+}
+
 .container {
   position: absolute;
   transform: translate(-50%, -50%);
@@ -16,7 +20,7 @@
   box-sizing: content-box;
   height: 7.8em;
   width: 17.5em;
-  border: 0.6em solid #246aed;
+  border: 0.6em solid #09ff00;
   margin: auto;
   border-radius: 0.6em;
   position: relative;
@@ -30,7 +34,7 @@
   content: "";
   height: 5em;
   width: 1.1em;
-  background-color: #246aed;
+  background-color: #09ff00;
   margin: auto;
   top: 0;
   bottom: 0;
@@ -42,7 +46,7 @@
   position: absolute;
   height: 6.5em;
   width: 16.25em;
-  background-color: #246aed;
+  background-color: #09ff00;
   top: 0.6em;
   left: 0.6em;
 }
@@ -51,6 +55,7 @@
   position: absolute;
   font-size: 3em;
   font-weight: 500;
+  color: #fff;
 }
 
 #charging-time {
